@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">GoWithTheFlo</string>
+    <string name="i_will_meet_floren_at">Scheduled date to meet Floren :</string>
+    <string name="there_s_still">There\'s still</string>
+    <string name="left">left to meet Floren</string>
+    <string name="empty_dash">-</string>
+    <string name="meet_floren">Meet Floren</string>
+    <string name="kiss">Kiss</string>
+
+
+
+    <string name="complete_text_sleep">Finally you meet Floren! \n but she is asleep now \n Better luck next time!</string>
+    <string name="complete_text_sleep_dark">A wild Floren appears! Floren is fast asleep… Use \'Kiss\' now?</string>
+    <string name="complete_text_woke_up">Now finally Floren is awake!! Congratulation!</string>
+    <string name="complete_text_mad">Floren is now sad. Please hug her right now to make her happy!</string>
+    <string name="complete_text_not_in_a_mood">Floren has just woke up and not in the mood to talk! Please give her some fried chicken now!</string>
+    <string name="complete_text_pimples">OMG! Floren has a pimple and can\'t see you right now! Go back tomorrow!</string>
+    <string name="complete_text_live_tally">Uh Oh!! Floren is now streaming on Tally Official Shop Shopee live and can\'t be disturbed!</string>
+    <string name="complete_text_finally_meet">Thank you Yonas! Your quest is over. We present you a new quest. Press \'Meet Floren\' to continue</string>
+    <string name="complete_text_hold_hand">PSBB is over!! Now you can hold her hand. CIYEEEEEE</string>
+    <string name="complete_text_pick_up">Where are you at Yonas? I\'m ready to be picked up!!</string>
+    <string name="complete_text_sleep_next_time">Uhhhhh.. I\'m so tired now.. Maybe next time?? Gudetanight!</string>
+    <string name="complete_text_sweet_kiss">Finally we meet Yonas.. Here, let me kiss you!!</string>
+
+</resources>
