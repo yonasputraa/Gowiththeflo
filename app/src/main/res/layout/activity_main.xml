@@ -97,34 +97,34 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/countDownView" />
 
-    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
-        android:id="@+id/fabMeetFloren"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="@dimen/_24sdp"
-        android:backgroundTint="@color/colorPrimaryDark"
-        android:text="@string/meet_floren"
-        android:textColor="@color/white"
-        app:icon="@drawable/ic_round_date_range_24"
-        app:iconTint="@color/white"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+    <!--    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton-->
+    <!--        android:id="@+id/fabMeetFloren"-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_margin="@dimen/_24sdp"-->
+    <!--        android:backgroundTint="@color/colorPrimaryDark"-->
+    <!--        android:text="@string/meet_floren"-->
+    <!--        android:textColor="@color/white"-->
+    <!--        app:icon="@drawable/ic_round_date_range_24"-->
+    <!--        app:iconTint="@color/white"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent" />-->
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/completeBackgroundLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:visibility="visible"
-        android:animateLayoutChanges="true">
+        android:animateLayoutChanges="true"
+        android:visibility="gone">
 
         <androidx.appcompat.widget.AppCompatImageView
             android:id="@+id/ivCompleteImage"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:scaleType="centerCrop"
             android:tint="#99000000"
-            tools:src="@drawable/complete_image_sleep"
-            android:scaleType="centerCrop"/>
+            tools:src="@drawable/complete_image_sleep" />
 
         <com.google.android.material.textview.MaterialTextView
             android:id="@+id/tvCompleteText"
@@ -146,13 +146,47 @@
             android:id="@+id/btnKiss"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/kiss"
             android:layout_marginTop="@dimen/_36sdp"
+            android:text="@string/kiss"
+            android:visibility="gone"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvCompleteText"
-            android:visibility="gone"
-            tools:visibility="visible"/>
+            tools:visibility="visible" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ECECEC"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            app:elevation="0dp"
+            app:labelVisibilityMode="unlabeled"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:menu="@menu/bottom_nav_menu" />
+
+
+        <ImageView
+            android:id="@+id/nav_add_button"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/background_center_button"
+            android:contentDescription="@string/bottom_sheet_behavior"
+            android:padding="15dp"
+            android:src="@drawable/ic_round_add_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

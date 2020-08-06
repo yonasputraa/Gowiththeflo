@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
         checkIsAlreadyMeet()
         initMeetingTime()
         initDatePicker()
-        fabMeetFloren.setOnClickListener {
+        nav_add_button.setOnClickListener {
             showDatePicker()
             completeBackgroundLayout.visibility = View.GONE
         }
@@ -44,7 +44,6 @@ class MainActivity : AppCompatActivity() {
             ivCompleteImage.setImageResource(R.drawable.complete_image_woke_up)
             tvCompleteText.text = getString(R.string.complete_text_woke_up)
 
-            fabMeetFloren.visibility = View.VISIBLE
             btnKiss.visibility = View.GONE
         }
     }
@@ -199,7 +198,6 @@ class MainActivity : AppCompatActivity() {
                 completeText = R.string.complete_text_sleep_dark
                 ivCompleteImage.imageTintList = null
 
-                fabMeetFloren.visibility = View.GONE
                 btnKiss.visibility = View.VISIBLE
             }
             MAD.value -> {
