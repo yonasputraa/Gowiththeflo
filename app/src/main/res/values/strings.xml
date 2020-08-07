@@ -8,7 +8,6 @@
     <string name="kiss">Kiss</string>
 
 
-
     <string name="complete_text_sleep">Finally you meet Floren! \n but she is asleep now \n Better luck next time!</string>
     <string name="complete_text_sleep_dark">A wild Floren appears! Floren is fast asleep… Use \'Kiss\' now?</string>
     <string name="complete_text_woke_up">Now finally Floren is awake!! Congratulation!</string>
@@ -21,5 +20,6 @@
     <string name="complete_text_pick_up">Where are you at Yonas? I\'m ready to be picked up!!</string>
     <string name="complete_text_sleep_next_time">Uhhhhh.. I\'m so tired now.. Maybe next time?? Gudetanight!</string>
     <string name="complete_text_sweet_kiss">Finally we meet Yonas.. Here, let me kiss you!!</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>
